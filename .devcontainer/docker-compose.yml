@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  chatbot:
+    build:
+      dockerfile: ./chatbot/Dockerfile
+    volumes:
+      - ../:/chatbot:rw
+    command: sleep infinity

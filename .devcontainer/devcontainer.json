@@ -1,0 +1,8 @@
+{
+    "name": "Electra-chatbot",
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "chatbot",
+    "workspaceFolder": "/chatbot",
+    "shutdownAction": "stopCompose",
+    "remoteUser": "ubuntu"
+}
